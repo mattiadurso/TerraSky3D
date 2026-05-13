@@ -48,21 +48,20 @@
 
 Despite the growing need for data of more and more sophisticated 3D reconstruction pipelines, we can still observe a scarcity of suitable public datasets. Existing 3D datasets are either low resolution, limited to a small amount of scenes, based on images of varying quality because retrieved from the internet, or limited to specific capturing scenarios.
 
-Motivated by this lack of suitable 3D datasets, we captured TerraSky3D, a high-resolution large-scale 3D reconstruction dataset comprising 50,000 images divided into 155 ground, aerial, and mixed scenes. The dataset focuses on European landmarks and comes with curated calibration data, camera poses, and depth maps. TerraSky3D tries to answer the need for challenging dataset that can be used to train and evaluate 3D reconstruction-related pipelines. 
+Motivated by this lack of suitable 3D datasets, we captured TerraSky3D, a high-resolution large-scale 3D reconstruction dataset comprising ~50,000 images divided into 150 ground, aerial, and mixed scenes. The dataset focuses on European landmarks and comes with curated calibration data, camera poses, and depth maps. TerraSky3D tries to answer the need for challenging dataset that can be used to train and evaluate 3D reconstruction-related pipelines. 
 
 ## 📊 Training/Test Set Statistics (v1.0)
 
 <!-- from nb_test_TS3D.ipynb -->
 
-| Metric | Test | / | Train | Description |
+| Metric | Train | / | Test | Description |
 | :--- | ---: | :---: | :--- | :--- |
-| **Scenes** | 133 | / | 12 | Number of scenes. |
-| **Images** | 42,992 | / | 3,018 | Number of high-resolution (4K) images provided in the dataset. |
-| **Pairs** | 2,624,784 | / | 43,720 | Total stereo/overlapping image pairs captured. |
-| &nbsp;&nbsp;↳ **Ground** | 1,682,869 | / | 32,718 | Pairs captured only from a ground perspective. |
+| **Scenes** | 138 | / | 12 | Number of scenes. |
+| **Images** | 44,505 | / | 3,018 | Number of high-resolution (4K) images provided in the dataset. |
+| **Pairs** | 2,671,062 | / | 43,720 | Total stereo/overlapping image pairs captured. |
+| &nbsp;&nbsp;↳ **Ground** | 1,729,147 | / | 32,718 | Pairs captured only from a ground perspective. |
 | &nbsp;&nbsp;↳ **Aerial** | 728,502 | / | 6,308 | Pairs captured only from an aerial perspective. |
 | &nbsp;&nbsp;↳ **Mixed** | 213,413 | / | 4,694 | Pairs captured from both aerial and ground views. |
-
 
 ## 📁 Download & Format
 
