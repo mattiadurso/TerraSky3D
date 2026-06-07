@@ -69,6 +69,8 @@ The dataset can be downloaded from <a href="https://huggingface.co/datasets/matt
 
 Use `data_viewer.ipynb` to generate `train_data.json` and visualize examples of pairs of images from all the dataset or just mixed aerial and ground pairs.
 
+The classes used for semantic masking are: person, bicycle, car, motorcycle, truck, light, sea, snow, water-other, tree-merged, sky-other-merged, mountain-merged
+
 -------
 
 The dataset follows a structured format for seamless integration into SfM and novel view synthesis pipelines:
