@@ -35,10 +35,16 @@
   <br>
   <p><em>Left: Sparse 3D reconstruction of the Villalta Castle, Italy. Right: Representative images collected from aerial and ground perspectives, shown with their corresponding geometrically and semantically filtered depth maps.</em></p>
 
-  <div style="display: flex; justify-content: center; gap: 5px;">
-    <img src="assets/susans.gif" alt="Scene 1 GIF" width="32%">
-    <img src="assets/gorizia.gif" alt="Scene 2 GIF" width="32%">
-    <img src="assets/pieve.gif" alt="Scene 3 GIF" width="32%">
+  <!-- GitHub strips style attributes, so the GIFs are inline: comments remove the source whitespace and
+       &#8196;&#8202; (three-per-em + hair space, ~6px in Mona Sans) matches the ~6px line gap between rows -->
+  <div>
+    <img src="assets/udine_castello_susans_3dgs.gif" alt="Castello di Susans" width="24%">&#8196;&#8202;<!--
+ --><img src="assets/gorizia_military_shrine_3dgs.gif" alt="Gorizia Military Shrine" width="24%">&#8196;&#8202;<!--
+ --><img src="assets/udine_fagagna_church_3dgs.gif" alt="Fagagna Church" width="24%">&#8196;&#8202;<!--
+ --><img src="assets/pordenone_marsure_3dgs.gif" alt="Marsure" width="24%"><br><!--
+ --><img src="assets/sauris_upper_church_3dgs.gif" alt="Sauris Upper Church" width="24%">&#8196;&#8202;<!--
+ --><img src="assets/pordenone_barcis_3dgs.gif" alt="Barcis" width="24%">&#8196;&#8202;<!--
+ --><img src="assets/udine_devils_bridge_3dgs.gif" alt="Devil's Bridge" width="24%">
   </div>
   <p><em>Examples of 3DGS reconstructions of aerial and ground scenes from TerraSky3D.</em></p>
 </div>
