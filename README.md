@@ -112,6 +112,16 @@ data/scene/
 ```
 
 
+## 🎯 Test Pairs (Relative Pose Benchmark)
+
+`test_pairs/` contains all 43,720 pairs of the official test set (12 scenes), with ground-truth intrinsics and relative pose, ready for a pairwise feature-matching / relative-pose benchmark:
+
+- `test_pairs/scenes/<scene>.txt`: pairs of one scene.
+- `test_pairs/pairs_all.txt`: all scenes in one file.
+- `test_pairs/pairs_all.json`: same pairs grouped by scene, plus image size and radial distortion per camera.
+
+Each TXT line is `img0 img1 K0(9) K1(9) R(9) t(3)`. Image paths are relative to the extracted test scenes (`<scene>/frames/<cam>/<image>.jpg`), `R, t` map camera 0 to camera 1 (`x1 = R x0 + t`, COLMAP world-to-camera), and `t` is unit-norm. See `test_pairs/README.md` for details.
+
 ## 🙏 Acknowledgments
 
 We thank Davide Casano, Luca Danelutti, Federico Fattori, Alessandro Menafra, Florian Thaler, Runze Yuan, and Stefano Zorzi for their invaluable contributions to the data collection process.
