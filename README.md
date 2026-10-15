@@ -73,6 +73,8 @@ Motivated by this lack of suitable 3D datasets, we captured TerraSky3D, a high-r
 
 The dataset can be downloaded from <a href="https://huggingface.co/datasets/mattia-durso/TerraSky3D"> Hugging Face 🤗 </a>.
 
+The Hugging Face repo has one `.tar` per scene: training scenes are in `train/` (named by type: `G_` ground, `A_` aerial, `AG_` mixed aerial and ground), test scenes in `test/<scene>.tar`, and the test-set pairs in `test_pairs/`.
+
 Use `data_viewer.ipynb` to generate `train_data.json` and visualize examples of pairs of images from all the dataset or just mixed aerial and ground pairs.
 
 The classes used for semantic masking are: person, bicycle, car, motorcycle, truck, light, sea, snow, water-other, tree-merged, sky-other-merged, mountain-merged
